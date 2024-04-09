@@ -14,7 +14,7 @@ function GradeList(props) {
                         return (
                             <li key={index} style={{ color: displayColor(item) }}>
                                 <span>{item}</span>
-                                <button onClick={() => removeGradeHandler(index, false)}>Remove Grade</button>
+                                <button onClick={() => removeGradeHandler(index)}>Remove Grade</button>
                             </li>
                         )
                     })}
